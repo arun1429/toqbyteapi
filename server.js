@@ -1,6 +1,6 @@
 const http = require('http');
 const app = require('./app');
-const port = 6023;
+const port = 6099;
 const server = http.createServer(app);
 const { createNewAdmin } = require('./createSuperAdmin');
 const { dbConnect } = require('./helper/dbConnection');
