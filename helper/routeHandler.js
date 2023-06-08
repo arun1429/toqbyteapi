@@ -1,6 +1,6 @@
 const { Router } = require('express');
 const baseRouter = Router();
-const basePath = '/api/admin';
+const basePath = '/api/webnewadmin';
 const {
     employee,
      carrer,
